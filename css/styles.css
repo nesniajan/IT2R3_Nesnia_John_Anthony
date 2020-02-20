@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    background: lightcoral;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.logo-section {
+    width:250px;
+    display: inline-block;
+}
+.logo-section img {
+    width: 100%;
+    margin-top: 4px;
+}
+nav {
+    float: right;
+    margin-top: 95px;
+    margin-right: 90px;
+}
+nav a {
+    text-decoration: none;
+    color: #E71E5C;
+    text-transform: uppercase;
+    margin-left: 17px;
+    font-size: 20px;
+    padding: 16px 26px;
+}
+nav a:hover {
+    background: #de554e;
+    border-radius: 14px;
+}
+section.banner-section {
+    background-image: url(../images/background.jpeg);
+    padding: 216px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+section.banner-section {
+    text-align: center;
+    font-size: 300px;
+    text-transform: uppercase;
+    border: 1px solid #ffffff80;
+    background:#E71E5C;
+    color:#fff;
+    padding:70px 12px;  
+}
+section.about_us {
+    text-align: center;
+    font size: 300px;
+    text-decoration: none;
+    text-indent: 10px;
+    letter-spacing: 3px;
+    line-height: 1px;
+    text-shadow: 10px;
+    border: 1px solid #ffffff80;
+    background:#E71E5C;
+    color:#fff;
+    padding:70px 12px;
+}
+section.about_us{
+    padding: 153px;
+    background-attachment: scroll;
+
+}
